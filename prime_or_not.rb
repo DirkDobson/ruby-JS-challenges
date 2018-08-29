@@ -2,6 +2,7 @@
 require "pry"
 
 def prime_or_not
+  puts "Enter a number to see if it is prime"
   num = gets.to_i
   if num == 1 
     puts "1 is not a prime number"
